@@ -17,7 +17,7 @@ class _SecondPageState extends State<SecondPage> {
           children: [
                 Container(
                   decoration: BoxDecoration(
-
+              boxShadow:
                   ),
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.center,
