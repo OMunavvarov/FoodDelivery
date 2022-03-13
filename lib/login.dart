@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:food/polniy.dart';
 import 'package:food/second_page.dart';
 
 class LoginPage extends StatefulWidget {
@@ -109,7 +110,7 @@ class _LoginPageState extends State<LoginPage> {
                       SizedBox(height: 14,),
                       InkWell(
                         onTap: (){
-                          Navigator.push(context, MaterialPageRoute(builder: (context)=>SecondPage()));
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>All()));
                           final isValid=formKey.currentState!.validate();
                           if(isValid){
                             formKey.currentState!.save();
